@@ -1,0 +1,7 @@
+/* In your CSS file, e.g., Articles.css */
+.truncated-text {
+  width: 500px; /* Set a width that works for your layout */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
