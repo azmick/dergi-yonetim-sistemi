@@ -11,7 +11,6 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-// Bu satırı ekleyin
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 // React build dosyalarını sunmak için bu satırları ekleyin
