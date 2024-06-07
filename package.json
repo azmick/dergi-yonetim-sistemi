@@ -1,5 +1,13 @@
 {
   "devDependencies": {
     "sequelize-cli": "^6.6.2"
-  }
+  },
+  "scripts": {
+    "start": "node backend/server.js",
+    "build": "cd frontend && npm run build"
+  },
+  "dependencies": {
+  "express": "^4.17.1"
+}
+
 }
